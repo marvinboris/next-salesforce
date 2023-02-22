@@ -1,6 +1,6 @@
 import { InputHTMLAttributes, ReactNode } from 'react'
 
-import { classNames } from '../../../../../app/helpers/utils'
+import { classNames } from '@/app/helpers/utils'
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
     inputSize?: 'sm' | 'lg'

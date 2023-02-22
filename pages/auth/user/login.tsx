@@ -6,9 +6,9 @@ import { useAppDispatch, useAppSelector } from "@/app/hooks";
 import Status from "@/app/types/enums/status";
 
 import Layout, { Head } from "@/components/auth/navigation/layout";
-import Alert from "@/components/frontend/ui/alert";
-import Button from "@/components/frontend/ui/form/button";
-import Input from "@/components/frontend/ui/form/input";
+import Alert from "@/components/ui/alert";
+import Button from "@/components/ui/form/button";
+import Input from "@/components/ui/form/input";
 
 import { selectAuth, userLogin } from "@/features/auth/authSlice";
 

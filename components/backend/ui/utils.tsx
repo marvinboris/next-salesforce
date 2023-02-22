@@ -14,7 +14,7 @@ import ResourceType from '../../../app/types/resource';
 import { selectAuth } from '../../../features/auth/authSlice';
 import { BackendState } from '../../../features/backend/backendSlice';
 
-import Alert from '../../frontend/ui/alert';
+import Alert from '../../ui/alert';
 
 import Loading from '../../ui/preloaders/loading';
 

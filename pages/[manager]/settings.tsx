@@ -7,8 +7,8 @@ import { useAppSelector } from '@/app/hooks'
 import Button from '@/components/backend/ui/form/button'
 import Layout, { Head } from '@/components/backend/navigation/layout'
 import PageTitle from '@/components/backend/ui/title/page'
-import Input from '@/components/frontend/ui/form/input'
-import Select from '@/components/frontend/ui/form/select'
+import Input from '@/components/ui/form/input'
+import Select from '@/components/ui/form/select'
 
 import { selectAuth } from '@/features/auth/authSlice'
 

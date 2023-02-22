@@ -2,7 +2,7 @@ import { AdjustmentsHorizontalIcon, ArrowRightOnRectangleIcon, Bars3BottomLeftIc
 import Image from "next/image"
 import Link from "next/link"
 
-import { useSideDrawerContext } from "../../../../app/contexts/sideDrawer"
+import { useSideDrawerContext } from "../../../../app/contexts/side-drawer"
 
 import { useAppDispatch, useAppSelector } from "../../../../app/hooks"
 import { logout, selectAuth } from "../../../../features/auth/authSlice"

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 
 import { useContentContext } from "@/app/contexts/content";
-import { useSideDrawerContext } from "@/app/contexts/sideDrawer";
+import { useSideDrawerContext } from "@/app/contexts/side-drawer";
 import { resourceIcon } from "@/app/helpers/utils";
 import { useAppSelector, useWindowSize } from "@/app/hooks";
 import ResourceType from "@/app/types/resource";

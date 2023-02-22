@@ -2,7 +2,7 @@ import { ReactNode, useEffect, useState } from 'react'
 import NextHead from 'next/head'
 import { useRouter } from 'next/router'
 
-import SideDrawerContext from '../../../../app/contexts/sideDrawer'
+import SideDrawerContext from '../../../../app/contexts/side-drawer'
 import { useAppSelector } from '../../../../app/hooks'
 import { selectAuth } from '../../../../features/auth/authSlice'
 

@@ -2,7 +2,7 @@ import { ComponentProps, ReactNode, useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import { useSideDrawerContext } from '../../../../../app/contexts/sideDrawer'
+import { useSideDrawerContext } from '../../../../../app/contexts/side-drawer'
 import { classNames } from '../../../../../app/helpers/utils'
 import { useWindowSize } from '../../../../../app/hooks'
 

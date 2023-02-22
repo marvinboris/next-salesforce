@@ -8,7 +8,7 @@ import Status from '@/app/types/enums/status'
 
 import Layout, { Head } from '@/components/backend/navigation/layout'
 import PageTitle from '@/components/backend/ui/title/page'
-import Alert from '@/components/frontend/ui/alert'
+import Alert from '@/components/ui/alert'
 
 import { selectAuth } from '@/features/auth/authSlice'
 import { dashboard, selectBackend } from '@/features/backend/backendSlice'

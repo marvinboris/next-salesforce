@@ -1,5 +1,6 @@
 import { ComponentProps, ReactNode } from "react";
-import { classNames } from "../../../../app/helpers/utils";
+
+import { classNames } from "@/app/helpers/utils";
 
 type SelectProps = ComponentProps<'select'> & {
     inputSize?: 'sm' | 'lg'

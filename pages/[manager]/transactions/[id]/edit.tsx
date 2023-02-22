@@ -1,14 +1,14 @@
 import { ReactElement } from 'react'
 
-import Layout from '../../../../components/backend/navigation/layout'
+import Layout from '@/components/backend/navigation/layout'
+import ManageAddOrEditTransactions from '@/components/backend/ui/page/add-or-edit/transactions'
 
-import { _delete } from '../../../../features/backend/backendSlice'
-import ManageAddOrEditTestimonials from '../../../../components/backend/ui/page/add-or-edit/testimonials'
+import { _delete } from '@/features/backend/backendSlice'
 
-import { NextPageWithLayout } from '../../../_app'
+import { NextPageWithLayout } from '@/pages/_app'
 
-const ManagerTestimonialsEditPage: NextPageWithLayout = () => <ManageAddOrEditTestimonials edit />
+const ManagerTransactionsEditPage: NextPageWithLayout = () => <ManageAddOrEditTransactions edit />
 
-ManagerTestimonialsEditPage.getLayout = (page: ReactElement) => <Layout>{page}</Layout>
+ManagerTransactionsEditPage.getLayout = (page: ReactElement) => <Layout>{page}</Layout>
 
-export default ManagerTestimonialsEditPage
+export default ManagerTransactionsEditPage
