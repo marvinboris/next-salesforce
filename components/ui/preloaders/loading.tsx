@@ -21,7 +21,7 @@ export default function Loading({ children, loading }: LoadingProps) {
             <div className='relative w-[150px] h-[150px] flex items-center'>
                 <div className='absolute border-[5px] border-primary-600 border-t-transparent rounded-full animate-spin aspect-square w-[150px]' />
 
-                <Image width={1920} height={1920} src={'/images/logo.png'} alt="Logo" className='w-full scale-75' />
+                <Image width={1920} height={1920} src={'/images/logo.svg'} alt="Logo" className='w-full scale-75' />
             </div>
         </div>
 
